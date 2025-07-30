@@ -13,6 +13,7 @@ Solo necesitas un navegador moderno (Chrome, Firefox, Edge, etc.).
 2. Haz clic en “Agregar” para añadirlos a la lista.
 3. Cuando hayas agregado todos, presiona el botón “Sortear Amigo”.
 4. Se seleccionará un amigo al azar de la lista y se mostrará en pantalla.
+5. Dicho amigo se removera de la lista.
 
 ## Vista previa
 
