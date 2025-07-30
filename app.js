@@ -12,6 +12,17 @@ function agregarAmigo()
     else
     {
         listaAmigos.push(amigo);
+        actualizarAmigos();
         document.getElementById('amigo').value = '';
+    }
+}
+
+function actualizarAmigos()
+{
+    document.getElementById('listaAmigos').innerHTML = '';
+
+    for(let i = 0; i < listaAmigos.length; i++)
+    {
+        document.getElementById('listaAmigos').innerHTML += `<li>${listaAmigos[i]}</li>`;
     }
 }
