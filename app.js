@@ -62,6 +62,12 @@ function sortearAmigo()
     const amigoSeleccionado = listaAmigos[numeroAmigo];
     
     // Mostramos el nombre del amigo seleccionado en el elemento con id = "resultado"
-    document.getElementById('resultado').innerHTML = `Amigo seleccionado: ${amigoSeleccionado}`;
+    document.getElementById('resultado').innerHTML = `Amigo secreto seleccionado: ${amigoSeleccionado}`;
+
+    // Sacamos al amigo del sorteo
+    listaAmigos.splice(numeroAmigo, 1);
+
+    // Actualizamos la lista visible en pantalla
+    actualizarAmigos();
     return;
 }
