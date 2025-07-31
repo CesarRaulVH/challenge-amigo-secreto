@@ -13,11 +13,17 @@ Solo necesitas un navegador moderno (Chrome, Firefox, Edge, etc.).
 2. Haz clic en “Agregar” para añadirlos a la lista.
 3. Cuando hayas agregado todos, presiona el botón “Sortear Amigo”.
 4. Se seleccionará un amigo al azar de la lista y se mostrará en pantalla.
-5. Dicho amigo se removera de la lista.
 
 ## Vista previa
 
-![Captura del proyecto](./assets/captura-vista-previa.png)
+1. Ingresando un amigo
+![Vista previa 1](./assets/vista-previa-1.png)
+
+2. Lista de amigos ingresados
+![Vista previa 2](./assets/vista-previa-2.png)
+
+3. Amigo secreto seleccionado
+![Vista previa 3](./assets/vista-previa-3.png)
 
 ## Ejecución
 
